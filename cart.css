@@ -26,6 +26,10 @@
     display: none;
 }
 
+.vertical{
+    display: none;
+}
+
 .cart_item {
     display: flex;
     border-bottom: 1px solid #dee2e7;
@@ -539,4 +543,5 @@
     .coupon_block {
         display: none;
     }
+
 }

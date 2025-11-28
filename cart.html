@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./web_listview.css">
+    <link rel="stylesheet" href="./web_detail.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./assets/Layout/Brand/logo-colored.png" alt="logo image">
+        </div>
+        <div class="search">
+            <input type="text" name="search" placeholder="Search">
+            <div class="category">
+                <div class="category_menu">
+                    <p>All category</p>
+                    <i class="fa-solid fa-angle-down" id="down"></i>
+                </div>
+            </div>
+            <button id="search_btn"><a href="./web_listview.html">Search</a></button>
+        </div>
+        <div class="nav_icons">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <p>Profile</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-message"></i>
+                <p>Message</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-heart"></i>
+                <p>Orders</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p><a href="#">My cart</a></p>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <h3 class="heading2"><a href="./index.html"><i class="fa-solid fa-arrow-left"></i></a> Shopping cart </h3>
+    <main>
+
+
+        <h3 class="main_heading">My cart (3)</h3>
+        
+        <!-- Web Cart -->
+
+        <div class="web_cart">
+            <div class="cart">
+                <div class="cart_container">
+                    <div class="cart_item">
+                        <div class="cart_img">
+                            <img src="./assets/Layout/cart/shirt.png" alt="Shirt Image">
+                        </div>
+                        <div class="cart_detail">
+                            <div class="cartdetail">
+                                <div>
+                                    <p class="cart_title">
+                                        T-shirts with multiple colors, for men and lady
+                                    </p>
+                                    <p> Size: medium, Color: blue, Material: Plastic</p>
+                                    <p>Seller: Artel Market</p>
+                                </div>
+
+                                <div class="vertical">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                                <div class="cart_btns">
+                                    <button>Remove</button>
+                                    <button>Save for later</button>
+                                </div>
+                            </div>
+                            <div class="cart_price">
+                                <p>$78.99</p>
+                                <div class="cart_quantity">
+                                    <p>Qty: 9</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div class="cart_quantity2">
+                                    <div>
+                                        <p>-</p>
+                                        <p>2</p>
+                                        <p>+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart_item">
+                        <div class="cart_img">
+                            <img src="./assets/Layout/cart/bag.png" alt="">
+                        </div>
+                        <div class="cart_detail">
+                            <div class="cartdetail">
+                                <div>
+                                    <p class="cart_title">
+                                        T-shirts with multiple colors, for men and lady
+                                    </p>
+                                    <p> Size: medium, Color: blue, Material: Plastic</p>
+                                    <p>Seller: Artel Market</p>
+                                </div>
+                                <div class="vertical">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+
+                                <div class="cart_btns">
+                                    <button>Remove</button>
+                                    <button>Save for later</button>
+                                </div>
+                            </div>
+
+                            <div class="cart_price">
+                                <p>$78.99</p>
+                                <div class="cart_quantity">
+                                    <p>Qty: 3</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div class="cart_quantity2">
+                                    <div>
+                                        <p>-</p>
+                                        <p>2</p>
+                                        <p>+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart_item">
+                        <div class="cart_img">
+                            <img src="./assets/Layout/cart/lamp.png" alt="">
+                        </div>
+                        <div class="cart_detail">
+                            <div class="cartdetail">
+                                <div>
+                                    <p class="cart_title">
+                                        T-shirts with multiple colors, for men and lady
+                                    </p>
+                                    <p> Size: medium, Color: blue, Material: Plastic</p>
+                                    <p>Seller: Artel Market</p>
+                                </div>
+                                <div class="vertical">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+
+                                <div class="cart_btns">
+                                    <button>Remove</button>
+                                    <button>Save for later</button>
+                                </div>
+                            </div>
+                            <div class="cart_price">
+                                <p>$78.99</p>
+                                <div class="cart_quantity">
+                                    <p>Qty: 1</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div class="cart_quantity2">
+                                    <div>
+                                        <p>-</p>
+                                        <p>2</p>
+                                        <p>+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back_btns">
+                        <button><i class="fa-solid fa-arrow-left"></i> Back to shop</button>
+                        <button>Remove all</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cart_summary">
+                <div class="coupon_block">
+                    <p>Have a coupon?</p>
+                    <div class="coupon">
+                        <input type="text" placeholder="Add coupon">
+                        <button>Apply</button>
+                    </div>
+                </div>
+                <div class="summary">
+                    <div>
+                        <p>Subtotal:</p>
+                        <p>$1403.97</p>
+                    </div>
+                    <div>
+                        <p>Discount:</p>
+                        <p class="discount">- $60.00</p>
+                    </div>
+                    <div>
+                        <p>Tax:</p>
+                        <p class="tax">+ $14.00</p>
+                    </div>
+
+                    <hr>
+                    <div class="total">
+                        <p>Total:</p>
+                        <p>$1357.97</p>
+                    </div>
+                    <button class="checkout">Checkout</button>
+
+                    <div class="payment">
+                        <div class="payment_logo">
+                            <img src="./assets/Layout/payment/Logo_1.png" alt="logo">
+                        </div>
+                        <div class="payment_logo">
+                            <img src="./assets/Layout/payment/Logo_2.png" alt="logo">
+                        </div>
+                        <div class="payment_logo">
+                            <img src="./assets/Layout/payment/Logo_3.png" alt="logo">
+                        </div>
+                        <div class="payment_logo">
+                            <img src="./assets/Layout/payment/Logo_4.png" alt="logo">
+                        </div>
+                        <div class="payment_logo">
+                            <img src="./assets/Layout/payment/logo_5.png" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features -->
+
+        <div class="features">
+            <div class="feature_item">
+                <div class="feature_logo">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="feature_text">
+                    <p>Secure payment</p>
+                    <p>Have you ever finally just </p>
+                </div>
+            </div>
+            <div class="feature_item">
+                <div class="feature_logo">
+                    <i class="fa-solid fa-message"></i>
+                </div>
+                <div class="feature_text">
+                    <p>Customer support</p>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+            <div class="feature_item">
+                <div class="feature_logo">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                <div class="feature_text">
+                    <p>Free delivery</p>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Save Later -->
+
+        <div class="block_save">
+            <h4>Saved for later</h4>
+
+            <div class="save_container">
+                <div class="save_item">
+                    <div class="save_img">
+                        <img src="./assets/Image/grid_view/tablet.png" alt="Image">
+                    </div>
+                    <p>$99.50</p>
+                    <p>GoPro HERO6 4K Action </p>
+                    <p>Camera - Black</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+                </div>
+                <div class="save_item">
+                    <div class="save_img">
+                        <img src="./assets/Image/grid_view/bubble_mobile.png" alt="">
+                    </div>
+                    <p>$99.50</p>
+                    <p>GoPro HERO6 4K Action </p>
+                    <p>Camera - Black</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+                </div>
+                <div class="save_item">
+                    <div class="save_img">
+                        <img src="./assets/Image/grid_view/watch.png" alt="">
+                    </div>
+                    <p>$99.50</p>
+                    <p>GoPro HERO6 4K Action </p>
+                    <p>Camera - Black</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+                </div>
+                <div class="save_item">
+                    <div class="save_img">
+                        <img src="./assets/Image/grid_view/laptop.png" alt="">
+                    </div>
+                    <p>$99.50</p>
+                    <p>GoPro HERO6 4K Action </p>
+                    <p>Camera - Black</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner -->
+
+        <div class="banner">
+
+            <div class="banner_content">
+                <div class="left_banner">
+                    <h3>Super discount on more than 100 USD </h3>
+                    <p>Have you ever finally just write dummy info</p>
+                </div>
+                <div class="right_banner">
+                    <button>Shop now</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer_head">
+
+            <div class="footer_left">
+
+                <img src="./assets/Layout/Brand/logo-colored.png" alt="">
+                <p>Best information about the company gies here but now lorem ipsum is</p>
+                <div class="footLeft_icons">
+                    <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_links">
+
+                <div class="footLinks_box">
+                    <p>About</p>
+                    <p>About Us</p>
+                    <p>Find store</p>
+                    <p>Categories</p>
+                    <p>Blogs</p>
+                </div>
+                <div class="footLinks_box">
+                    <p>Partnership</p>
+                    <p>About Us</p>
+                    <p>Find store</p>
+                    <p>Categories</p>
+                    <p>Blogs</p>
+                </div>
+                <div class="footLinks_box">
+                    <p>Information</p>
+                    <p>Help Center</p>
+                    <p>Money Refund</p>
+                    <p>Shipping</p>
+                    <p>Contact us</p>
+                </div>
+                <div class="footLinks_box">
+                    <p>For users</p>
+                    <p>Login</p>
+                    <p>Register</p>
+                    <p>Settings</p>
+                    <p>My Orders</p>
+                </div>
+            </div>
+
+            <div class="footer_right">
+                <p>Get app</p>
+                <div>
+                    <img src="./assets/Layout/Misc/market-button.png" alt="Misc Market image">
+                    <img src="./assets/Layout/Misc/Group.png" alt="Misc Market image">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_foot">
+            <p>© 2023 Ecommerce.</p>
+            <div>
+                <img src="./assets/Layout1/Image/flags/US@2x.png" alt="Flag Image">
+                <p>English <i class="fa-solid fa-angle-up"></i></p>
+            </div>
+        </div>
+
+    </footer>
+</body>

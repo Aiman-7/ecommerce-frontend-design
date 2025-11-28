@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./assets/Layout/Brand/logo-colored.png" alt="logo image">
+        </div>
+        <div class="search">
+            <input type="text" name="search" placeholder="Search">
+            <div class="category">
+                <div class="category_menu">
+                    <p>All category</p>
+                    <i class="fa-solid fa-angle-down" id="down"></i>
+                </div>
+            </div>
+            <button id="search_btn"><a href="./web_listview.html">Search</a></button>
+        </div>
+        <div class="nav_icons">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <p>Profile</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-message"></i>
+                <p>Message</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-heart"></i>
+                <p>Orders</p>
+            </div>
+          <a href="./cart.html">
+              <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>My cart</p>
+            </div>
+          </a>
+        </div>
+    </nav>
+
+    <!-- Nav List -->
+
+    <div class="nav_list">
+        <div class="hamburger">
+            <img src="./assets/Layout/icon/hamburger.png" alt="hamburder">
+        </div>
+        <div class="navList_items">
+            <div>All category</div>
+            <div>Hot offers</div>
+            <div>Gift boxes</div>
+            <div>Projects</div>
+            <div>Menu item</div>
+            <div>Help<i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        <div class="navList_payment">
+            <div>
+                <p>English, USD </p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div>
+                <p>Ship to</p>
+                <img src="./assets/Layout1/Image/flags/DE@2x.png" alt="flag image">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+        <section class="main_section">
+            <ul class="main_menu">
+                <li class="active">Automobiles</li>
+                <li>Clothes and wear</li>
+                <li>Home interiors</li>
+                <li>Computer and tech</li>
+                <li>Tools, equipments</li>
+                <li>Sports and outdoor</li>
+                <li>Animal and pets</li>
+                <li>Machinery tools</li>
+                <li>More category</li>
+            </ul>
+
+            <div class="main_banner">
+                <img src="./assets/Image/backgrounds/Banner-board-800x420 2.png" alt="banner background">
+                <div>
+                    <h3>Latest trending</h3>
+                    <h3>Electronic items</h3>
+                    <button>Learn more</button>
+                </div>
+            </div>
+
+            <div class="main_blocks">
+                <div class="block1 block">
+                    <div class="block1_head">
+                        <div class="block1_img">
+                            <img src="./assets/Layout/Avatar/Avatar (1).png" alt="Avatar">
+                        </div>
+                        <div class="block1_text">
+                            <p>Hi, user</p>
+                            <p>let's get stated</p>
+                        </div>
+                    </div>
+                    <div class="block1_button">
+                        <button>Join now</button>
+                        <button>Log in</button>
+                    </div>
+                </div>
+                <div class="block2 block">
+                    <p>Get US $10 off</p>
+                    <p>with a new </p>
+                    <p>supplier</p>
+                </div>
+                <div class="block3 block">
+
+                    <p>Send quotes with</p>
+                    <p>supplier</p>
+                    <p>preferences</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sales_section">
+            <div class="sales_card sales_card1">
+                <h4>Deals and offers</h4>
+                <p>Hygiene equipments</p>
+                <div class="sales_timer">
+                    <div>
+                        <p>04</p>
+                        <p>Days</p>
+                    </div>
+                    <div>
+                        <p>13</p>
+                        <p>Hour</p>
+                    </div>
+                    <div>
+                        <p>34</p>
+                        <p>Min</p>
+                    </div>
+                    <div>
+                        <p>56</p>
+                        <p>Sec</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sales_card card_items">
+                <div>
+                    <img src="./assets/Image/tech/watch.png" alt="Watch Image">
+                </div>
+                <h3>Smart watches</h3>
+                <p>-25%</p>
+
+            </div>
+            <div class="sales_card card_items">
+                <div>
+                    <img src="./assets/Image/tech/laptop.png" alt="Laptop Image">
+                </div>
+                <h3>Laptops</h3>
+                <p>-15%</p>
+            </div>
+            <div class="sales_card card_items">
+                <div>
+                    <img src="./assets/Image/tech/camera.png" alt="Camera Image">
+                </div>
+                <h3>GoPro cameras</h3>
+                <p>-40%</p>
+            </div>
+            <div class="sales_card card_items">
+                <div>
+                    <img src="./assets/Image/tech/headphones.png" alt="Headphones">
+                </div>
+                <h3>Headphones</h3>
+                <p>-25%</p>
+            </div>
+            <div class="sales_card card_items">
+                <div>
+                    <img src="./assets/Image/tech/mobile.png" alt="Mobile Image">
+                </div>
+                <h3>Canon camreras</h3>
+                <p>-25%</p>
+            </div>
+        </section>
+
+        <section class="homeItems_section items_group">
+            <div class="items_left">
+                <img src="./assets/Image/backgrounds/home_left.png" alt="Home Background Image">
+                <div>
+                    <h4>Home and outdoor</h4>
+                    <button>Source now</button>
+                </div>
+            </div>
+
+            <div class="items_container">
+                <div class="items_cards">
+                    <div>
+                        <h3>Soft chairs</h3>
+                        <p>From</p>
+                        <p>USD 19</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior/chair.png" alt="Chair Image">
+                    </div>
+                </div>
+
+                <div class="items_cards">
+                    <div>
+                        <h3>Sofa & chair</h3>
+                        <p>From</p>
+                        <p>USD 19</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior/lamp.png" alt="Lamp Image">
+                    </div>
+                </div>
+
+                <div class="items_cards">
+                    <div>
+                        <h3>Kitchen dishes</h3>
+                        <p>From</p>
+                        <p>USD 19</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior/tub.png" alt="Tub Image">
+                    </div>
+                </div>
+
+                <div class="items_cards">
+                    <div>
+                        <h3>Smart watches</h3>
+                        <p>From</p>
+                        <p>USD 19</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior/jar.png" alt="Jar Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Kitchen mixer</h3>
+                        <p>From</p>
+                        <p>USD 100</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior/juicer.png" alt="Juicer Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Blenders</h3>
+                        <p>From</p>
+                        <p>USD 39</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior/coffee_maker.png" alt="Coffee Maker Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Home appliance</h3>
+                        <p>From</p>
+                        <p>USD 19</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior/gadget.png" alt="Gadget Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Coffee maker</h3>
+                        <p>From</p>
+                        <p>USD 10</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/interior//plant.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="electronics_section items_group">
+            <div class="items_left">
+                <img src="./assets/Image/backgrounds/electronics.png" alt="Electronics Background Image">
+                <div>
+                    <h4>Consumer electronics and gadgets</h4>
+                    <button>Source now</button>
+                </div>
+            </div>
+
+            <div class="items_container">
+                <div class="items_cards">
+                    <div>
+                        <h3>Smart watches</h3>
+                        <p>From</p>
+                        <p>USD 19</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/watch.png" alt="Watch Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Cameras</h3>
+                        <p>From</p>
+                        <p>USD 89</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/camera.png" alt="Camera Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Headphones</h3>
+                        <p>From</p>
+                        <p>USD 10</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/white_headphones.png" alt="White Headphones Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Smart watches</h3>
+                        <p>From</p>
+                        <p>USD 90</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/jug.png" alt="Jug Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Gaming set</h3>
+                        <p>From</p>
+                        <p>USD 35</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/headphones.png" alt="Headphones Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Laptops & PC</h3>
+                        <p>From</p>
+                        <p>USD 340</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/laptop.png" alt="Laptop Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Smartphones</h3>
+                        <p>From</p>
+                        <p>USD 19</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/tablet.png" alt="Tablet Image">
+                    </div>
+                </div>
+                <div class="items_cards">
+                    <div>
+                        <h3>Electric kattle</h3>
+                        <p>From</p>
+                        <p>USD 240</p>
+                    </div>
+                    <div class="cards_img">
+                        <img src="./assets/Image/electronics/red_mobile.png" alt="Red Mobiel Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="inquiry_section">
+            <img src="./assets/Image/backgrounds/Group 982.png" alt="Iquiry Background Image">
+            <div class="inquiry_text">
+                <div class="inquiry_left">
+                    <h2>An easy way to send</h2>
+                    <h2>requests to all suppliers</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="inquiry_right">
+                    <h4>Send quote to suppliers</h4>
+                    <div class="right_form">
+                        <input type="text" name="itemName" placeholder="What item you need?">
+                        <textarea name="details" placeholder="Type more details"></textarea>
+                        <div class="quantity">
+                            <input type="number" name="quantity" placeholder="Quantity" id="quantity">
+                            <div id="pieces">
+                                <p>Pcs</p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                        <button id="inquiry_btn">Send inquiry</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recommend_section">
+
+            <h3>Recommended items</h3>
+            <div class="recommend_container">
+
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/shirt.png" alt="Blue T-shirt">
+                    <div class="recoCards_text">
+                        <p>$10.30</p>
+                        <p>T-shirts with multiple </p>
+                        <p>colors, for men</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/jacket.png" alt="Brown Jacket">
+                    <div class="recoCards_text">
+                        <p>$10.30</p>
+                        <p>Jeans shorts for men</p>
+                        <p>blue color</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/blue_coat.png" alt="Blue Coat">
+                    <div class="recoCards_text">
+                        <p>$12.50</p>
+                        <p>Brown winter coat</p>
+                        <p>medium size</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/wallet.png" alt="Blue Wallet">
+                    <div class="recoCards_text">
+                        <p>$34.00</p>
+                        <p>Jeans bag for travel</p>
+                        <p>for men</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/bag.png" alt="Blue Bag">
+                    <div class="recoCards_text">
+                        <p>$99.00</p>
+                        <p>Leather wallet</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/shorts.png" alt="Blue Shorts">
+                    <div class="recoCards_text">
+                        <p>$9.99</p>
+                        <p>Canon camera </p>
+                        <p>black, 100x zoom</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/headphones.png" alt="White Headphones">
+                    <div class="recoCards_text">
+                        <p>$8.99</p>
+                        <p>Headset for gaming</p>
+                        <p>with mic</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/bag.png" alt="Blue Bag">
+                    <div class="recoCards_text">
+                        <p>$10.30</p>
+                        <p>Smartwatch</p>
+                        <p>silver color modern</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/jar.png" alt="Jar">
+                    <div class="recoCards_text">
+                        <p>$10.30</p>
+                        <p>Blue wallet for men</p>
+                        <p>leather metarfial</p>
+                    </div>
+                </div>
+                <div class="recommend_card">
+                    <img src="./assets/Layout/alibaba/Image/cloth/jug.png" alt="Jug">
+                    <div class="recoCards_text">
+                        <p>$80.95</p>
+                        <p>Jeans bag for travel</p>
+                        <p>for men</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="services_section">
+            <h3>Our extra services</h3>
+            <div class="servCard_container">
+                <div class="services_card">
+                    <div class="servCard_img">
+                        <img src="./assets/Image/backgrounds/Mask group.png" alt="">
+                    </div>
+                    <div class="servIcon_img">
+                        <img src="./assets/Image/vector/Vector.png" alt="">
+                    </div>
+                    <p>Source from</p>
+                    <p>Industry Hub</p>
+                </div>
+                <div class="services_card">
+                    <div class="servCard_img">
+                        <img src="./assets/Image/backgrounds/Mask group (1).png" alt="">
+                    </div>
+                    <div class="servIcon_img">
+                        <img src="./assets/Image/vector/inventory_2.png" alt="">
+                    </div>
+                    <p>Customize Your</p>
+                    <p>Products</p>
+                </div>
+                <div class="services_card">
+                    <div class="servCard_img">
+                        <img src="./assets/Image/backgrounds/image 106.png" alt="">
+                    </div>
+                    <div class="servIcon_img">
+                        <img src="./assets/Image/vector/vector4.png" alt="">
+                    </div>
+                    <p>Fast, reliable shipping</p>
+                    <p>by ocean or air</p>
+                </div>
+                <div class="services_card">
+                    <div class="servCard_img">
+                        <img src="./assets/Image/backgrounds/image 107.png" alt="">
+                    </div>
+                    <div class="servIcon_img">
+                        <img src="./assets/Image/vector/vector5.png" alt="">
+                    </div>
+                    <p>Product monitoring </p>
+                    <p>and inspection</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="country_section">
+            <h3>Suppliers by region</h3>
+            <div class="country_container">
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/AE@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>Arabic Emirates</p>
+                        <p>shopname.ae</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/icon.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>Australia</p>
+                        <p>shopname.ae</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/US@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>United States</p>
+                        <p>shopname.ae</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/RU@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>Russia</p>
+                        <p>shopname.ru</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/IT@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>Italy</p>
+                        <p>shopname.it</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/DK@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>Denmark</p>
+                        <p>denmark.com.dk</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/FR@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>France</p>
+                        <p>shopname.com.fr</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/AE@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>Arabic Emirates</p>
+                        <p>shopname.ae</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/CN@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>China</p>
+                        <p>shopname.ae</p>
+                    </div>
+                </div>
+                <div class="country_card">
+                    <img src="./assets/Layout1/Image/flags/GB@2x.png" alt="Flag Image">
+                    <div class="countCard_text">
+                        <p>Great Britain</p>
+                        <p>shopname.co.uk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="newsletter_section">
+        <h4>Subscribe on our newsletter</h4>
+        <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+        <div class="newsletter_subscribe">
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <button>Subscribe</button>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer_head">
+
+            <div class="footer_left">
+
+                <img src="./assets/Layout/Brand/logo-colored.png" alt="">
+                <p>Best information about the company gies here but now lorem ipsum is</p>
+                <div class="footLeft_icons">
+                    <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_links">
+
+                <div class="footLinks_box">
+                    <p>About</p>
+                    <p>About Us</p>
+                    <p>Find store</p>
+                    <p>Categories</p>
+                    <p>Blogs</p>
+                </div>
+                <div class="footLinks_box">
+                    <p>Partnership</p>
+                    <p>About Us</p>
+                    <p>Find store</p>
+                    <p>Categories</p>
+                    <p>Blogs</p>
+                </div>
+                <div class="footLinks_box">
+                    <p>Information</p>
+                    <p>Help Center</p>
+                    <p>Money Refund</p>
+                    <p>Shipping</p>
+                    <p>Contact us</p>
+                </div>
+                <div class="footLinks_box">
+                    <p>For users</p>
+                    <p>Login</p>
+                    <p>Register</p>
+                    <p>Settings</p>
+                    <p>My Orders</p>
+                </div>
+            </div>
+
+            <div class="footer_right">
+                <p>Get app</p>
+                <div>
+                    <img src="./assets/Layout/Misc/market-button.png" alt="Misc Market image">
+                    <img src="./assets/Layout/Misc/Group.png" alt="Misc Market image">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_foot">
+            <p>© 2023 Ecommerce.</p>
+            <div>
+                <img src="./assets/Layout1/Image/flags/US@2x.png" alt="Flag Image">
+                <p>English <i class="fa-solid fa-angle-up"></i></p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
